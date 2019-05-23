@@ -24,6 +24,6 @@ namespace :db do
   end
   
   task :console do 
-    exit
+    
   end
 end
