@@ -12,4 +12,7 @@ end
 
 namespace :db 
 
-  task :migrate 
+  task :migrate do 
+    require_relative './config/environment'
+  end
+end
