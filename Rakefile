@@ -8,9 +8,6 @@ namespace :greeting do
     puts "hola de Rake!"
   end
   
-  task :console do 
-    puts "yo"
-  end
   
 end
 
