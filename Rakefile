@@ -9,7 +9,7 @@ namespace :greeting do
   end
   
   task :console do 
-    exit
+    puts "yo"
   end
   
 end
