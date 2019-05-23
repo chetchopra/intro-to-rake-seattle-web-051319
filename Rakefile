@@ -13,6 +13,6 @@ end
 namespace :db 
 
   task :migrate do 
-    require_relative './config/environment'
+    puts "ho"
   end
 end
