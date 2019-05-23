@@ -9,3 +9,7 @@ namespace :greeting do
   end
   
 end
+
+namespace :db 
+
+  task :migrate 
