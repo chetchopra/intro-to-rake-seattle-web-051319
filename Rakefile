@@ -8,6 +8,10 @@ namespace :greeting do
     puts "hola de Rake!"
   end
   
+  task :console do 
+    
+  end
+  
 end
 
 namespace :db do 
@@ -23,7 +27,5 @@ namespace :db do
     require_relative './db/seeds.rb'
   end
   
-  task :console do 
-    
-  end
+
 end
