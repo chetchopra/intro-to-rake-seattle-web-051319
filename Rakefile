@@ -10,9 +10,4 @@ namespace :greeting do
   
 end
 
-namespace :db 
 
-  task :migrate do 
-    puts "ho"
-  end
-end
